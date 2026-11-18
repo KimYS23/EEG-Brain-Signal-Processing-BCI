@@ -15,7 +15,7 @@ Clinical EEG Preprocessing Pipeline (MNE, ICA, ICLabel) &amp; SSVEP Frequency Cl
 
 ---
 
-### 2. SSVEP 기반 시각 자극 주파수 분류 알고리즘 구현 (`SSVEP_EEG_CCA.ipynb`)
+### 2. SSVEP 기반 시각 자극 주파수 분류 알고리즘 구현 (`SSVEP_CCA_prac.ipynb`)
 * **개요**: Tsinghua SSVEP Benchmark 뇌파 데이터셋(64채널, 40개 시각 자극 주파수, 240 Trials)을 활용한 신호 처리 및 주파수 판별 모델 구현
 * **주요 수행 내용**:
   * **생체신호 필터링 및 스펙트럼 분석**: 5차 Butterworth Bandpass Filter(`5~45Hz`)를 설계하여 신호를 정제하고, `FFT(고속푸리에변환)` 시각화를 통해 시각피질(`Oz` 채널)의 자극 주파수 및 고조파(Harmonics) 특성 확인
